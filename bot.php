@@ -17,11 +17,17 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			// Build message to reply back
+			if($text=='ดี' || $text=='สวัสดี'  || $text=='หวัดดี'  || $text=='ดีงับ'  || $text=='ดีจ้า'){
+				$text =  => 'ดีก้าบ'
+			}else{
+				$text = 'ไม่ตอบหรอก อิอิ ฝากเพจด้วยจิ:https://www.facebook.com/Thara.Betta.TH/'
+			}
 			$messages = [
 				'type' => 'text',
-				//'text' => $text
-				'text' => 'ไม่ตอบหรอก อิอิอิ ฝากเพจ:https://www.facebook.com/Thara.Betta.TH/'
+				'text' => $text
+				
 			];
+			
 
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
