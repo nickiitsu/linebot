@@ -18,13 +18,13 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 			if($text=='ดี' || $text=='สวัสดี'  || $text=='หวัดดี'  || $text=='ดีงับ'  || $text=='ดีจ้า'){
-				$text =  => 'ดีก้าบ';
+				$text =  'ดีก้าบ';
 			}else{
 				$text = 'ไม่ตอบหรอก อิอิ ฝากเพจด้วยจิ:https://www.facebook.com/Thara.Betta.TH/';
 			}
 			$messages = [
 				'type' => 'text',
-				'text' => $text,
+				'text' => $text
 				
 			];
 			
