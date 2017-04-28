@@ -19,7 +19,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			if($text=='ดี' || $text=='สวัสดี'  || $text=='หวัดดี'  || $text=='ดีงับ'  || $text=='ดีจ้า'|| $text=='ดีค่ะ'|| $text=='ดีค้าบ'|| $text=='ดีคราฟ'){
 				$text =  'ดีก้าบ..TharaBetta เองงับ';
-			}else if($text=='%เท่าไร%' || $text=='ราคา'  || $text=='ราคาเท่าไร') {
+			}else if($text=='เท่าไร' || $text=='ราคา'  || $text=='ราคาเท่าไร' || $text=='เท่าไหร่' || $text=='ราคาเท่าไหร่' || $text=='ขายยังไง'|| $text=='ค่าส่ง') {
 				$text = 'ตัวละ 1,000 บาทเองครับ';
 			}else{
 				$text = 'ไม่ตอบหรอก อิอิ ฝากเพจด้วยจิ:https://www.facebook.com/Thara.Betta.TH/';
