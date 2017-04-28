@@ -20,7 +20,7 @@ if (!is_null($events['events'])) {
 			$messages = [
 				'type' => 'text',
 				//'text' => $text
-				'text' => 'ไม่ตอบหรอก อิอิอิ'
+				'text' => 'ไม่ตอบหรอก อิอิอิ ฝากเพจ:<a href="https://www.facebook.com/Thara.Betta.TH/" target="_blank">กด</a>'
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
